@@ -25,8 +25,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float groundCheckRadius = 0.02f;
 
 
-
-
     //lives and score
     [SerializeField] int maxLives = 5;
     
@@ -51,8 +49,6 @@ public class PlayerController : MonoBehaviour
             _score = value;
             if (TestMode) Debug.Log("Score has been set to: " + score.ToString());
         }
-
-
     }
 
 
@@ -82,7 +78,6 @@ public class PlayerController : MonoBehaviour
         jumpForce /= 2;
         jumpForceChange = null;
     }
-
 
 
 
@@ -124,6 +119,19 @@ public class PlayerController : MonoBehaviour
             if (TestMode) Debug.Log("Groundcheck object was created on " + gameObject.name);
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Update is called once per frame
     void Update()

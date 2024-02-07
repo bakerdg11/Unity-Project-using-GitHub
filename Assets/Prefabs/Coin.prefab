@@ -98,9 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4fbe272a7ba73347b9e638062a74221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCollectible: 1
-  timeToDestroy: 0
-  currentCollectibe: 0
+  currentCollectible: 0
+  timeToDestory: 0
 --- !u!61 &7378752032488022749
 BoxCollider2D:
   m_ObjectHideFlags: 0

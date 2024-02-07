@@ -5,22 +5,24 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
 
-    //sorts what kind of collectible they each are. Enumerative value. Creating an integer and giving specific values
+
+
+
+
+
+
+
+
+
     public enum PickupType
     {
         Powerup,
         Score,
-        Life,
+        Life
     }
 
-
-
     [SerializeField] PickupType currentCollectible;
-    [SerializeField] float timeToDestroy = 0;
-
-    
-    public PickupType currentCollectibe;
-
+    [SerializeField] float timeToDestory = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -34,15 +36,13 @@ public class Collectible : MonoBehaviour
                     pc.StartJumpForceChange();
                     break;
                 case PickupType.Score:
+                    pc.score++;
                     break;
                 case PickupType.Life:
+                    pc.lives++;
                     break;
             }
-            Destroy(gameObject);
+            Destroy(gameObject, timeToDestory);
         }
-            
     }
-
-
-
 }

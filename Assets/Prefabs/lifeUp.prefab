@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5017615910359896167}
   - component: {fileID: 4451189484334245891}
-  - component: {fileID: 9042226071145946580}
   - component: {fileID: 2761403613037915981}
   - component: {fileID: 179534558356109468}
   m_Layer: 0
@@ -87,27 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &9042226071145946580
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2874379393317896490}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!58 &2761403613037915981
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -155,6 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4fbe272a7ba73347b9e638062a74221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCollectible: 2
-  timeToDestroy: 0
-  currentCollectibe: 0
+  currentCollectible: 0
+  timeToDestory: 0
