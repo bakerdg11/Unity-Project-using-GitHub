@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Collectible
+  - Projectile
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
@@ -38,6 +41,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: FarBackground
+    uniqueID: 495639451
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: PlayArea
+    uniqueID: 2694008133
+    locked: 0
+  - name: Foreground
+    uniqueID: 422012821
     locked: 0
